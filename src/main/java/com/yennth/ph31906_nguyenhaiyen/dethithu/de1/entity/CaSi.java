@@ -20,17 +20,17 @@ import lombok.ToString;
 @Builder
 @ToString
 @Entity
-@Table(name = "CaSi")
+@Table(name = "ca_si")
 public class CaSi {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "TenCaSi")
+    @Column(name = "ten_ca_si")
     private String tenCaSi;
 
-    @Column(name = "QueQuan")
+    @Column(name = "que_quan")
     private String queQuan;
 
 }
