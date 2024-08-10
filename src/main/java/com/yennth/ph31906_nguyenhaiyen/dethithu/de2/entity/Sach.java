@@ -44,7 +44,7 @@ public class Sach {
     private BigDecimal donGia;
 
     @ManyToOne
-    @JoinColumn(name = "id_nxb" , referencedColumnName = "id")
+    @JoinColumn(name = "id_nha_xuat_ban" , referencedColumnName = "id")
     private NXB nxb;
 
     @Column(name = "trang_thai")
